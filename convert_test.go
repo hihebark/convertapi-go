@@ -1,8 +1,8 @@
 package convertapi
 
 import (
-	"github.com/ConvertAPI/convertapi-go/config"
-	"github.com/ConvertAPI/convertapi-go/param"
+	"github.com/hihebark/convertapi-go/config"
+	"github.com/hihebark/convertapi-go/param"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"path"

@@ -3,7 +3,7 @@ package param
 import (
 	"bytes"
 	"fmt"
-	"github.com/ConvertAPI/convertapi-go/config"
+	"github.com/hihebark/convertapi-go/config"
 	"io"
 	"net/url"
 	"strings"

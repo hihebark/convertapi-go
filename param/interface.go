@@ -1,7 +1,7 @@
 package param
 
 import (
-	"github.com/ConvertAPI/convertapi-go/config"
+	"github.com/hihebark/convertapi-go/config"
 )
 
 type IParam interface {

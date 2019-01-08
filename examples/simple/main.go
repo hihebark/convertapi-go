@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/ConvertAPI/convertapi-go"
-	"github.com/ConvertAPI/convertapi-go/config"
+	"github.com/hihebark/convertapi-go"
+	"github.com/hihebark/convertapi-go/config"
 	"os"
 )
 

@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/ConvertAPI/convertapi-go"
-	"github.com/ConvertAPI/convertapi-go/config"
-	"github.com/ConvertAPI/convertapi-go/lib"
-	"github.com/ConvertAPI/convertapi-go/param"
+	"github.com/hihebark/convertapi-go"
+	"github.com/hihebark/convertapi-go/config"
+	"github.com/hihebark/convertapi-go/lib"
+	"github.com/hihebark/convertapi-go/param"
 	"os"
 )
 
