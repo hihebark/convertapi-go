@@ -2,6 +2,7 @@ package convertapi
 
 import (
 	"encoding/json"
+	"fmt"
 	"github.com/hihebark/convertapi-go/lib"
 	"net/http"
 	"net/url"
@@ -111,5 +112,6 @@ func (this *Result) resolve(response *response) {
 
 func (this *Result) reject(err error) {
 	this.err = err
+	fmt.Printf("Result.reject: Error %v\n", err)
 	close(this.waitCh)
 }
