@@ -20,9 +20,8 @@ func NewFile(name string, file *os.File, conf *config.Config) *ParamFile {
 }
 
 func NewFileReader(name string, reader io.Reader, conf *config.Config) *ParamFile {
-	n := strings.Split(name, filepath.Ext(name))
-	paramReader := NewReader(n[0], reader, name, conf)
-	return &ParamFile{*paramReader, name}
+	paramReader := NewReader("file", reader, name, conf)
+	return &ParamFile{*paramReader, ""}
 }
 
 func NewPath(name string, path string, conf *config.Config) IParam {
